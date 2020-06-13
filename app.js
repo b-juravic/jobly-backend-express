@@ -9,8 +9,8 @@ app.use(cors());
 
 // add logging system
 
-const morgan = require("morgan");
-app.use(morgan("tiny"));
+// const morgan = require("morgan");
+// app.use(morgan("tiny"));
 
 
 const usersRoutes = require("./routes/users");
