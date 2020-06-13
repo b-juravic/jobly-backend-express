@@ -7,7 +7,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cors());
 
-// add logging system
+// logging system, uncomment in dev (slows down production)
 
 // const morgan = require("morgan");
 // app.use(morgan("tiny"));
